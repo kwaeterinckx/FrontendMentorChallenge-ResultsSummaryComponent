@@ -1,0 +1,21 @@
+:root {
+    /* Colors */
+    --clr-text-dark: hsl(224, 30%, 27%);
+    --clr-text-light: hsl(241, 100%, 89%);
+    --clr-text-white: hsl(0, 0%, 100%);
+
+    --clr-cat-reaction: hsl(0, 100%, 67%);
+    --clr-cat-memory: hsl(39, 100%, 56%);
+    --clr-cat-verbal: hsl(166, 100%, 37%);
+    --clr-cat-vision: hsl(234, 85%, 45%);
+
+    --clr-grad-bg: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    --clr-grad-circle: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+
+    /* Font families */
+    --ff-body: "Hanken Grotesk", sans-serif;
+
+    /* Font sizes */
+    --fs-html: 16px;
+    --fs-body: 1rem;
+}
