@@ -7,7 +7,12 @@
     --clr-cat-reaction: hsl(0, 100%, 67%);
     --clr-cat-memory: hsl(39, 100%, 56%);
     --clr-cat-verbal: hsl(166, 100%, 37%);
-    --clr-cat-vision: hsl(234, 85%, 45%);
+    --clr-cat-visual: hsl(234, 85%, 45%);
+
+    --clr-cat-reaction-bg: hsl(0, 100%, 67%, 0.1);
+    --clr-cat-memory-bg: hsl(39, 100%, 56%, 0.1);
+    --clr-cat-verbal-bg: hsl(166, 100%, 37%, 0.1);
+    --clr-cat-visual-bg: hsl(234, 85%, 45%, 0.1);
 
     --clr-grad-bg: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     --clr-grad-circle: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
