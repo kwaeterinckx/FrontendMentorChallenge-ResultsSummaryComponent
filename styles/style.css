@@ -182,7 +182,7 @@ body {
     cursor: pointer;
 }
 
-.summary__button:is(:hover, :focus) {
+.summary__button:is(:hover, :focus-visible) {
     background: var(--clr-grad-bg);
 }
 
