@@ -1,0 +1,23 @@
+@media (width >=600px) {
+    :root {
+        --fs-html: 18px;
+    }
+
+    body {
+        min-height: 100vh;
+        display: grid;
+        place-content: center;
+    }
+
+    .results__main {
+        max-width: 736px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-radius: 2rem;
+        box-shadow: 1rem 2rem 2rem hsla(0, 0%, 0%, .1);
+    }
+
+    .results__header {
+        border-radius: 2rem;
+    }
+}
