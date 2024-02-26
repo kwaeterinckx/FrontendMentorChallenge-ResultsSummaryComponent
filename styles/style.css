@@ -25,6 +25,10 @@ body {
     color: var(--clr-text-dark);
 }
 
+:focus-visible {
+    outline: .2rem solid var(--clr-text-dark);
+    outline-offset: .2rem;
+}
 
 /* Header */
 .results__header {
@@ -183,12 +187,22 @@ body {
 }
 
 /* Footer */
+.attribution {
+    position: absolute;
+    bottom: 0;
+    inset-inline: 0;
+}
+
 .attribution p {
     font-size: .75rem;
     text-align: center;
     padding-block: 2rem;
 }
 
-.attribution p a {
-    color: var(--clr-cat-visual);
+.attribution p a:nth-of-type(1) {
+    color: hsl(252, 100%, 67%);
+}
+
+.attribution p a:nth-of-type(2) {
+    color: hsl(241, 81%, 54%);
 }
